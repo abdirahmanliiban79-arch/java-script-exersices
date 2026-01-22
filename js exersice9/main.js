@@ -8,7 +8,7 @@ let car = {
         )
     }
 }
-
+console.log(car.start())
 console.log("TESLA CAR INFO")
 
 console.log(car.model)
