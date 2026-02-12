@@ -5,3 +5,5 @@ calculateArea = (width,height=width) => {
 console.log(calculateArea(5*10))
 // without value of height
 console.log(calculateArea(5))
+
+

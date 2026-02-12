@@ -1,0 +1,437 @@
+// // local scope
+// function showLocal(){
+//     let myName = "maanka"
+//     console.log(myName)
+// }
+// // console.log(myName)
+// showLocal()
+
+// // global scope
+// let age = 20;
+
+// function year(){
+//     console.log(age);
+// }
+// year()
+
+// console.log(age)
+
+// // block scope
+
+// {
+//     let myName = "bidaar"
+//     const age =20;
+//     console.log(myName)
+//     console.log(age)
+
+//     function add (a,b){
+//         return a+b;
+//     }
+//       console.log(add(20,10))
+
+// }
+
+
+// let firstName = 'abdi'
+// let lastName = 'rahman'
+
+// console.log(firstName+" "+lastName)
+
+// let greeting = "welcome "
+// // greeting += firstName+lastName
+
+// console.log(greeting)
+
+// let text = " to my webpage"
+
+// console.log(greeting +=firstName+lastName+" "+ "to my webpage")
+
+// // funciton normal
+// function naming(){
+//     console.log("my name is abdirahman")
+// }
+// naming()
+
+// // function express
+
+// let name = function (){
+//     console.log("my name is abdirahman")
+// }
+// name()
+
+// // function arrows
+
+// const magac = () => {
+//     console.log('my name is abdirahman')
+// }
+// // magac()
+
+// // arreys 
+// let names = ["ilhaan", "abdudallahi","ahmed","ali","yuusuf"]
+
+// console.log("after push")
+
+// names.push("muhumed")
+// console.log(names)
+
+// console.log("after pop")
+
+// names.pop()
+// console.log(names)
+
+
+// console.log("after shift")
+
+// names.shift()
+// console.log(names)
+
+// console.log("after unshift")
+
+// names.unshift("khadija")
+// console.log(names)
+
+// // console.log(names.length)
+
+// {
+//     let names = ["ali","axmed","hamdi","deeqa","ilhaan","hanaan","nimca"]
+
+//     console.log(names[0])
+//     console.log(names[1])
+//     console.log(names[2])
+//     console.log(names[3])
+//     console.log(names[4])
+//     console.log(names[5])
+//     console.log(names[6])
+
+//     names.push("muhumed")
+//     console.log(names)
+
+//     names.pop()
+//     console.log(names)
+
+//     names.shift()
+//     console.log(names)
+
+//     names.unshift("cabdirahman")
+//     console.log(names)
+
+//     console.log(names.length)
+
+
+//     let ali = {
+//         name : "ali",
+//         age : 20,
+//         city : "middle shebelle",
+//         born : "in there",
+//     }
+//     console.log(" ")
+//     console.log(ali.name)
+//     console.log(ali.city)
+//     console.log(ali.born)
+//     console.log(ali.age)
+
+//     let axmed = {
+//         name : "axmed",
+//         age : 14,
+//         city : "middle shebelle",
+//         born : "in there,"
+//     }
+//      console.log(" ")
+//     console.log(axmed.name)
+//     console.log(axmed.city)
+//     console.log(axmed.born)
+//     console.log(axmed.age)
+
+//     let hamdi = {
+//         name : "hamdi",
+//         age : 29,
+//         city : "mogadishu",
+//         born : "in middle shebelle",
+//     }
+//       console.log(" ")
+//     console.log(hamdi.name)
+//     console.log(hamdi.city)
+//     console.log(hamdi.born)
+//     console.log(hamdi.age)
+
+//     let deeqa = {
+//         name : "indhoos",
+//         age : 17,
+//         city : "middle shebelle",
+//         born : "in there"
+//     }
+//     console.log(" ")
+//     console.log(deeqa.name)
+//     console.log(deeqa.city)
+//     console.log(deeqa.born)
+//     console.log(deeqa.age)
+
+//     let ilhaan = {
+//         name : "ilhaan",
+//         age : 23,
+//         city : "middle shebelle",
+//         born : "in there"
+
+//     }
+//       console.log(" ")
+//     console.log(ilhaan.name)
+//     console.log(ilhaan.city)
+//     console.log(ilhaan.born)
+//     console.log(ilhaan.age)
+
+//     let hanaan = {
+//         name : "hanaan",
+//         age : 16,
+//         city : "middle shebelle",
+//         born : "in there",
+//     }
+//     // console.log(" ")
+//     // console.log(hanaan.name)
+//     // console.log(hanaan.city)
+//     // console.log(hanaan.born)
+//     // console.log(hanaan.age)
+//     hanaan.birthDate = "2009-10-20"
+//     hanaan.name="hanaan liiban"
+//     console.log(hanaan)
+
+//     let nimca = {
+//         name : "afka",
+//         age : 30,
+//         city : "middle shabelle",
+//         born : "in there",
+
+//         about : function (){
+//             console.log("hi my name is " + this.name + " im "+this.age+"years old my city is "+this.city+" and i live right now "+this.born)
+//         }
+
+//     }
+
+//     console.log(nimca.about())
+// }
+
+// let students =[
+//     {
+//         name : "abdirahman",
+//         age : 20,
+//         class : "f4",
+//         born : "in middle shabelle",
+//     },
+
+
+//     {
+//         name : "aabanaa",
+//         age : 23,
+//         class : "f4 b",
+//         born : "in middle shabelle",
+//     },
+//     {
+//         name : "zaki",
+//         age : 30,
+//         class : "B78",
+//         born : "in mogadishu",
+//     },
+//     {
+//         name :"ali",
+//         age : 22,
+//         class :"G57",
+//         born : "kambala",
+//     },
+//     {
+//         name : "mohamed",
+//         age : 19,
+//         class : "B152",
+//         born : "in uganda",
+//     },
+// ]
+
+// console.log(students[0])
+// console.log(students[1].name)
+
+// let name = "Abdirahman"
+// let name2 = "liiban"
+
+// name += " mohumed"
+//  console.log(name)
+
+// console.log(name+" "+name2);
+
+// meesha ay kabilaabneyso hoosha 
+// ilaa meesha ay ku egthay
+// sida ay wax ushaqeynayan
+
+// let names = ["axmed","ali","abdirhamn","deeqa"]
+
+// for (let i = 0; i < names.length; i+=2){
+//     console.log("hi "+names[i]+", welcome to our program")
+// }
+
+// let i = 10
+// while (i > 0){
+//     console.log(i);
+//     i--;
+// }
+
+// let password;
+
+// do{
+//     password = prompt("enter your password")
+// }while(password !=="12345" )
+//     console.log("welcome user")
+
+
+//     let number = 15;
+//     let number1= 10;
+
+//     console.log(number !== number1)
+
+// let i = 0
+// while(i <= 10){
+//     console.log(i);
+//     i++
+// }
+
+// function greet (a,b){
+//     console.log(a*b)
+// }
+// greet(6,6)
+
+// let greets = function (a,b){
+//     return a*b
+// }
+// (5,5)
+// console.log(greets / 5)
+
+// const salaam= () =>{
+//     console.log("hello world")
+// }
+
+// salaam()
+
+// for(let i =5; i >= 0; i--){
+//     console.log(i)
+// }
+
+// let i = 1;
+// while(i <= 10){
+//     console.log(i)
+//     i++
+// }
+
+// let over;
+// do{
+//     console.log(over = prompt("enter over10"));
+// }while(over >= "10" )
+
+// let password;
+// do{
+//     console.log(password = prompt("enter over10"));
+// }while(password !== "11" )
+
+// let guess;
+
+// while(guess != "7"){
+//     console.log(guess =  prompt("guess the number"))
+// }
+
+// // ATM test
+
+// let pin;
+// do{
+//     console.log(pin=prompt("enter your pin"))
+// }while(pin !== "2026")
+
+
+
+// const names = ["cali","axmed","yuusuf","me"]
+// for(let name of names){
+//     console.log(name)
+// }
+// console.log(" ")
+// let student = {
+//     name :"cali",
+//     age : 20,
+//     id : "22",
+//     class :"B45"
+
+// }
+
+// student.birthDate = "1999-09-8"
+
+// for(const key in student){
+//     console.log(student[key])
+// }
+
+
+
+// let person1 = {
+//     Name: "Ali",
+//     Age: 25,
+//     City: "mogadishu",
+// }
+
+// let person2 = {
+//     Name: "CJ",
+//     Age: 20,
+//     City: "puntland"
+// }
+
+// let person3 = {
+//     Name: "aj",
+//     Age: 500,
+//     City: "unknown",
+// }
+
+// person3.birthDate = "1999-09-9"
+
+// for (const key in person1) {
+//     console.log(key, ":", person1[key])
+// }
+// console.log("")
+// for (const key in person2) {
+//     console.log(key, ":", person2[key])
+// }
+// console.log("")
+// for (const key in person3) {
+//     console.log(key, ":", person3[key])
+// }
+// console.log("")
+// let people = ["aj","naruuro","nasra","hamdi","jacfar","yuusuf"]
+
+// console.log(people)
+
+// people.unshift('hamuuda')
+
+// console.log(people)
+
+
+
+// for(let person of people){
+//     console.log(person)
+// }
+// let age = 18;
+// if(age >= 18){
+//     console.log("you are an adult")
+// }else{
+//     console.log("canug yar tahe orod seexo")
+// }
+// console.log("")
+
+// let da,a = 21
+// if (da,a < 13){
+//     console.log("you're a child")
+// }else if(da,a < 20){
+//     console.log("you're a teeneger")
+// }else if(da,a <30){
+//     console.log("ciyaalka xaafda oo gadh leh")
+// }else{
+//     console.log("you're an adult")
+// }
+
+// let qiimo = 20
+// const mine = qiimo <= 18 ? "you're a child" : "you're an adult";
+// console.log(mine)
+
+// // and oprator &&
+
+// let me = qiimo >= 18 && "Duq baad tahay"
+// console.log(me)

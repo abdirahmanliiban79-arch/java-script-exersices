@@ -15,6 +15,8 @@ let person3 = {
         Age : 500,
         City : "unknown",
     }  
+
+    person3.birthDate="1999-09-9"
     
 for (const key in person1){
     console.log(key,":",person1[key])
