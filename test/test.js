@@ -64,17 +64,17 @@
 // }
 // console.log(Colors(20,10,20,50))
 
-function fetchUserDataSyn(){
-    alert("fetching user data")
-    return  {id : "BA2",name : "mohamed",}
-}
+// function fetchUserDataSyn(){
+//     alert("fetching user data")
+//     return  {id : "BA2",name : "mohamed",}
+// }
 
-console.log("user data is in peocess please wait")
+// console.log("user data is in peocess please wait")
 
-let user = fetchUserDataSyn();
+// let user = fetchUserDataSyn();
 
-console.log(user)
-console.log("user data is fetched")
+// console.log(user)
+// console.log("user data is fetched")
 
 // function getUserData(callback){
 //     setTimeout(() => {
@@ -91,16 +91,34 @@ console.log("user data is fetched")
 
 // console.log("also you show up immidietly")
 
-function getInfo(callback){
-    setTimeout(() => {
-        return info = ("Waqtiga wuu dhacy"),
-        callback(info)
-    },5000);
+// function getInfo(callback){
+//     setTimeout(() => {
+//         return info = ("Waqtiga wuu dhacy"),
+//         callback(info)
+//     },5000);
+// }
+// console.log("waqtiga wuu dhici rabaa after 5 second ee hala kala xaroodo ardayey")
+
+// getInfo((info)=>{
+//     console.log(info)
+
+// })
+
+
+function fetchUserData (){
+    return new Promise((resolve,reject)=>{
+
+        setTimeout(() => {
+            // const success = true;
+            if(success=false){
+                resolve({id : "bc1", name : "hamuuda"})
+            }else{
+                reject("failed to fetch user data")
+            }
+        }, 2000);
+
+    })
 }
-console.log("waqtiga wuu dhici rabaa after 5 second ee hala kala xaroodo ardayey")
-
-getInfo(function(info){
-    console.log(info)
-
-})
-
+fetchUserData()
+.then((data)=>{console.log("user data",data)})
+.catch((err)=>{console.log(err)})
