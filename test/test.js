@@ -119,6 +119,14 @@ function fetchUserData (){
 
     })
 }
-fetchUserData()
-.then((data)=>{console.log("user data",data)})
-.catch((err)=>{console.log(err)})
+
+async function displayUserData(){
+
+   try{
+     let user = await fetchUserData();
+    console.log(user)
+   }catch(error){
+    console.log(error)
+   }
+}
+displayUserData()

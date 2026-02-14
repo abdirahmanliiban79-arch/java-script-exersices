@@ -1,7 +1,7 @@
 function receiveMassege(){
     return new Promise((resolve,reject)=>{
         setTimeout(() => {
-            if(ogolaansho = false){
+            if(ogolaansho = true){
                 resolve("Waa laguu gudbiyay codsigagi,soo dhawoow")
             }else{
                 reject("lagaama aqbalin codsigaagi,try it again ")
@@ -9,6 +9,15 @@ function receiveMassege(){
         }, 2000);
     })
 }
-receiveMassege()
-.then((aqbalay)=>{console.log("jawaab=",aqbalay)})
-.catch((cilad)=>{console.log(cilad)})
+
+
+async function displayUserData() {
+    try{
+        const massege = await receiveMassege()
+        console.log(massege)
+    }catch(error){
+        console.log(error)
+    }
+}
+
+displayUserData();
