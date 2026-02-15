@@ -1,0 +1,9 @@
+{
+    "id" : "BC5","name":"abdirahman",
+    "orders" :[ {
+       "product":"TV","price":"$2000","type": "electronic"
+    },
+    {
+        "product":"LAPTOP","price":"$1500","type": "electronic"
+    }]
+}
