@@ -1,0 +1,60 @@
+body{
+    background-color: #ebeaea;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+
+}
+.blog-container{
+   /* text-align: center; */
+   max-width: 500px;
+   margin: 50px auto;
+}
+.blog-container h1{
+    text-align: center;
+}
+.blog-form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    justify-content: center;
+    /* align-items: center; */
+}
+.blog-form h2{
+    text-align: center;
+}
+.blog-form button{
+    padding: 10px;
+    width: 445px;
+}
+input{
+    outline: none;
+    padding: 10px;
+}
+
+.NewBlog{
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px;
+}
+.NewBlog h2{
+    text-align: center;
+}
+.NewBlog img{
+    border-radius: 10px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.btn button{
+    padding: 4px;
+}
