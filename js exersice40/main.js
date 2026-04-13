@@ -121,3 +121,4 @@ speedEl.addEventListener('change', (e)=>{
 });
 videoEl.addEventListener('loadeddata',updateProgress)
 videoEl.addEventListener('ended',nextVideo)
+videoEl.addEventListener('seeking',updateProgress)

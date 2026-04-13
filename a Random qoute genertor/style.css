@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0a0a0c; 
+    overflow: hidden;
+    color: white;
+}
+
+
+.background-blobs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.6;
+}
+
+.blob-1 {
+    width: 300px;
+    height: 300px;
+    background: #007aff;
+    top: 10%;
+    left: 20%;
+}
+
+.blob-2 {
+    width: 400px;
+    height: 400px;
+    background: #5856d6; 
+    bottom: 10%;
+    right: 15%;
+}
+
+/* Glass Container */
+.glass-container {
+    background: rgba(255, 255, 255, 0.05); /* Very transparent */
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 35px;
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+header p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+.quote-display {
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.quote-text {
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.quote-author {
+    font-size: 16px;
+    font-weight: 500;
+    color: #007aff;
+}
+
+
+.ios-button {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    border: none;
+    padding: 16px 32px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.ios-button:hover {
+    transform: scale(0.98);
+    background: rgb(255, 255, 255, 0.5);
+}
+
+.ios-button:active {
+    transform: scale(0.95);
+}
